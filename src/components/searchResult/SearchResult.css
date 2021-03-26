@@ -1,0 +1,40 @@
+.card {
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  transition: border 0.5s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid black !important;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 1px solid cornflowerblue !important;
+  transform: translateY(-5px);
+  box-shadow: 2px 2px 0px black;
+}
+
+.card:hover .card-title {
+  color: cornflowerblue !important;
+}
+
+button {
+  border: none;
+  background-color: white;
+  /* border-bottom: 1px solid cornflowerblue; */
+  color: cornflowerblue;
+  padding: 0;
+  margin: 0;
+}
+
+.arrow {
+  margin: 0;
+  padding: 0;
+  height: 1.5px;
+  width: 10px;
+  background-color: cornflowerblue;
+  transition: transform 0.5s ease;
+}
+
+.load-wrapper:hover .arrow {
+  transform: scalex(10) translateX(4px);
+}
