@@ -18,3 +18,7 @@ input:focus {
   outline: none;
   border-bottom: 1.5px solid cornflowerblue;
 }
+
+span {
+  opacity: 0.7;
+}
